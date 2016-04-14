@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>基本表格</title>
+</head>
+<body>
+<table class="table">
+	<tr>
+		<td>编号</td>
+		<td>姓名</td>
+		<td>年龄</td>
+	</tr>
+	<tr>
+		<td>0001</td>
+		<td>张三</td>
+		<td>12</td>
+	</tr>
+</table>
+</body>
+</html>	
