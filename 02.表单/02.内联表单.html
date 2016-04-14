@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>内联表单</title>
+  <link href="../libs/css/bootstrap.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="../libs/js/jquery-1.10.2.min.js"></script>  
+  <script type="text/javascript" src="../libs/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+  <form role="form" class="form-inline">
+	<div class="form-group">
+		<label for="name" class="sr-only">名称</label>
+		<input type="text" class="form-control" id="name" name="name" placeholder="请输入名称" />
+	</div>
+	<div class="form-group">
+		<label for="file" class="sr-only">文件输入</label>
+		<input type="file" id="file" name="file" />
+	</div>
+	<div class="checkbox">
+		<label>
+			<input type="checkbox" />请勾选
+		</label>
+	</div>
+	<button class="btn btn-default">提交</button>
+  </form>
+  <p>注：内联表单的所有元素都是向左对齐的，标签是并排的。<br />sr-only可以隐藏表单的标签。</p>
+ </body>
+</html>
